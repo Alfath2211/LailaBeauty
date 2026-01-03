@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Laila Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header dengan background solid -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Laila Beauty</h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="testimoni.html">Testimoni</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <p>Galeri hasil karya rias pengantin dengan berbagai konsep dan gaya</p>
+        </div>
+    </section>
+
+    <!-- Filter Kategori -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="wisuda">Wisuda Look</button>
+                <button class="filter-btn" data-filter="modern">Modern Look</button>
+                <button class="filter-btn" data-filter="tradisional">Tradisional Look</button>
+                <button class="filter-btn" data-filter="prewedding">Pre-Wedding</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Portfolio -->
+    <section class="portfolio-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Wisuda Look -->
+                <div class="gallery-item wisuda" data-category="wisuda">
+                    <img src="images/1.jpg" alt="Rias Wisuda 1">
+                    <div class="gallery-overlay">
+                        <h3>Wisuda Look</h3>
+                        <p>Riasan natural untuk hari wisuda</p>
+                    </div>
+                </div>
+                <div class="gallery-item wisuda" data-category="wisuda">
+                    <img src="images/2.jpg" alt="Rias Wisuda 2">
+                    <div class="gallery-overlay">
+                        <h3>Wisuda Look</h3>
+                        <p>Makeup fresh dan elegan</p>
+                    </div>
+                </div>
+                <div class="gallery-item wisuda" data-category="wisuda">
+                    <img src="images/3.jpg" alt="Rias Wisuda 3">
+                    <div class="gallery-overlay">
+                        <h3>Wisuda Look</h3>
+                        <p>Konsep simple namun memukau</p>
+                    </div>
+                </div>
+
+                <!-- Modern Look -->
+                <div class="gallery-item modern" data-category="modern">
+                    <img src="images/11.jpg" alt="Rias Modern 1">
+                    <div class="gallery-overlay">
+                        <h3>Modern Look</h3>
+                        <p>Riasan kontemporer dengan sentuhan fresh</p>
+                    </div>
+                </div>
+                <div class="gallery-item modern" data-category="modern">
+                    <img src="images/12.jpg" alt="Rias Modern 2">
+                    <div class="gallery-overlay">
+                        <h3>Modern Look</h3>
+                        <p>Glamour dengan teknik terkini</p>
+                    </div>
+                </div>
+                <div class="gallery-item modern" data-category="modern">
+                    <img src="images/13.jpg" alt="Rias Modern 3">
+                    <div class="gallery-overlay">
+                        <h3>Modern Look</h3>
+                        <p>Elegant dan sophisticated</p>
+                    </div>
+                </div>
+
+                <!-- Tradisional Look -->
+                <div class="gallery-item tradisional" data-category="tradisional">
+                    <img src="images/15.jpg" alt="Rias Tradisional 1">
+                    <div class="gallery-overlay">
+                        <h3>Tradisional Look</h3>
+                        <p>Rias pengantin adat Jawa</p>
+                    </div>
+                </div>
+                <div class="gallery-item tradisional" data-category="tradisional">
+                    <img src="images/20.jpg" alt="Rias Tradisional 2">
+                    <div class="gallery-overlay">
+                        <h3>Tradisional Look</h3>
+                        <p>Rias pengantin adat Sunda</p>
+                    </div>
+                </div>
+                <div class="gallery-item tradisional" data-category="tradisional">
+                    <img src="images/13.jpg" alt="Rias Tradisional 3">
+                    <div class="gallery-overlay">
+                        <h3>Tradisional Look</h3>
+                        <p>Rias pengantin adat Melayu</p>
+                    </div>
+                </div>
+
+                <!-- Pre-Wedding -->
+                <div class="gallery-item prewedding" data-category="prewedding">
+                    <img src="images/9.jpg" alt="Pre-Wedding 1">
+                    <div class="gallery-overlay">
+                        <h3>Pre-Wedding</h3>
+                        <p>Sesi foto pre-wedding natural</p>
+                    </div>
+                </div>
+                <div class="gallery-item prewedding" data-category="prewedding">
+                    <img src="images/8.jpg" alt="Pre-Wedding 2">
+                    <div class="gallery-overlay">
+                        <h3>Pre-Wedding</h3>
+                        <p>Konsep outdoor romantic</p>
+                    </div>
+                </div>
+                <div class="gallery-item prewedding" data-category="prewedding">
+                    <img src="images/7.jpg" alt="Pre-Wedding 3">
+                    <div class="gallery-overlay">
+                        <h3>Pre-Wedding</h3>
+                        <p>Studio photoshoot elegant</p>
+                    </div>
+                </div>
+
+                <!-- Tambahan gambar untuk masing-masing kategori -->
+                <div class="gallery-item wisuda" data-category="wisuda">
+                    <img src="images/4.jpg" alt="Rias Wisuda 4">
+                    <div class="gallery-overlay">
+                        <h3>Wisuda Look</h3>
+                        <p>Graduation style modern</p>
+                    </div>
+                </div>
+                <div class="gallery-item modern" data-category="modern">
+                    <img src="images/18.jpg" alt="Rias Modern 4">
+                    <div class="gallery-overlay">
+                        <h3>Modern Look</h3>
+                        <p>Contemporary bridal makeup</p>
+                    </div>
+                </div>
+                <div class="gallery-item tradisional" data-category="tradisional">
+                    <img src="images/19.jpg" alt="Rias Tradisional 4">
+                    <div class="gallery-overlay">
+                        <h3>Tradisional Look</h3>
+                        <p>Traditional beauty</p>
+                    </div>
+                </div>
+                <div class="gallery-item prewedding" data-category="prewedding">
+                    <img src="images/12.jpg" alt="Pre-Wedding 4">
+                    <div class="gallery-overlay">
+                        <h3>Pre-Wedding</h3>
+                        <p>Love story session</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+        </div>
+        <button class="lightbox-nav prev">&#10094;</button>
+        <button class="lightbox-nav next">&#10095;</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/lailabeauty.mua?igsh=MWlucXNzOWhqa3Zhcg==" target="_blank" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100041791733008" target="_blank" class="social-icon" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@lailabeauty.mua?_t=ZS-90R8NwIBVki&_r=1" target="_blank" class="social-icon" title="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Laila Beauty - Rias Pengantin. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
